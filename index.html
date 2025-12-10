@@ -1,10 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="access/css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My portfolio</title>
 </head>
 <body>
+    <header>
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#get-in-touch">Get in Touch</a></li>
+        </ul>>
+    </nav>
+</header>
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Level Up Your Online Presence With Modern, High-Performing Web Experiences</h1>
+        <p>
+            I create beautiful, responsive websites using modern technologies. 
+            My work focuses on clean code, strong visual design, and exceptional user experiences.
+        </p>
+
+        <div class="home-links">
+            <a href="#portfolio" class="btn">Projects</a>
+            <a href="#contact" class="btn secondary">Contact</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="photo-computer.avif" alt="Web developer at work">
+    </div>
+</section>
+
+<section id="about" class="about-section">
+    <h2>About Me</h2>
+    <blockquote>
+        I build fast, responsive, and visually clean websites that help brands stand out 
+        and convert visitors into customers. Every website I create is built with one goal in mind: growth.
+        I develop web solutions that attract customers, increase engagement, and strengthen brand credibility.
+        Whether you're a startup or an established business, I help you communicate clearly and stand out online.
+    </blockquote>
+</section>
+
+<section class="skills-box">
+    <div class="skill">
+        <h3 class="skill-child">Clean Code</h3>
+        <blockquote>
+            Writing maintainable and scalable code following best practices and established design patterns.
+        </blockquote>
+    </div>
+
+    <div class="skill">
+        <h3 class="skill-child">Responsive Design</h3>
+        <blockquote>
+            Building websites that look great and function reliably on desktops, tablets, and smartphones.
+        </blockquote>
+    </div>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Here are some recent projects that showcase my skills and expertise.</p>
+
+    <div class="projects">
+        <div class="project">
+            <img src="resturant menu picture.jpg" alt="" width="300" height="200">
+            <a href="https://menulist-three.vercel.app" class="project-link">My First Project</a>
+        </div>
+        <div class="project"><a href="/" class="project-link">My Second Project</a></div>
+        <div class="project"><a href="/" class="project-link">My Third Project</a></div>
+    </div>
+</section>
+
+<hr>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have a project in mind? Let’s discuss how we can bring your idea to life.</p>
+
+    <address>
+        <p>
+            <img src="phone icon.jpg" alt="Phone icon" class="icon" width="20" height="20">
+            <a href="tel:+2347049738713" class="contacts">+2347049738713</a>
+            <br>
+            <img src="email icon.jpg" alt="Email icon" class="icon" width="20" height="20">
+            <a href="mailto:koladeadeboye444@gmail.com" class="contacts">koladeadeboye444@gmail.com</a>
+            <br>
+            <img src="location icon.jpg" alt="location icon" class="icon" width="20" height="20">
+            Lagos, Nigeria
+        </p>
+    </address>
+</section>
+
+<section id="get-in-touch">
+    <h2>Get in Touch With Me</h2>
+    <form>
+        <input type="text" placeholder="Name">
+        <br>
+        <input type="email" placeholder="Email">
+        <br>
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+<script src="access/js/script.js"></script>
 </body>
 </html>
