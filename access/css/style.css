@@ -286,6 +286,10 @@ footer {
     form textarea {
         width: 100%;
     }
+    .skill-child {
+        font-size: 14px;
+        min-width: 100%;
+    }
 }
 
    
