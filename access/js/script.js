@@ -10,7 +10,7 @@ form.addEventListener("submit", (e) => {
     if (name === "" || email === "" || message === "") {
         alert("Please fill out all fields before submitting.");
     } else {
-        alert("Thank you! Your message has been received.");
+        alert("Thank you! Your message has been sent to Kolade Adegboye.");
         form.reset();
     }
 });

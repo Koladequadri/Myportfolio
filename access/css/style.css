@@ -100,8 +100,10 @@ header h1 {
 }
 
 .hero-image img {
-    width: 450px;
-    border-radius: 30px;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    object-fit: cover;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 .about-section {
