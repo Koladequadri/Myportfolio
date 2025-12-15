@@ -11,17 +11,26 @@ body {
     line-height: 1.6;
 }
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: #1b3a57;
-    padding: 15px 0;
+    padding: 15px 15px;
     margin: 25px;
     border-radius: 22px;
 
+}
+header h1 {
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
 .nav-menu {
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 40px;
+    margin-right: 20px;
 }
 
 .nav-menu li a {
@@ -39,7 +48,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 80px 8%;
+    padding: 80px;
     background-color: #ffffff;
 }
 
@@ -91,7 +100,7 @@ header {
 
 .hero-image img {
     width: 450px;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 .about-section {
@@ -222,6 +231,7 @@ form textarea {
 
 form button {
     padding: 12px 30px;
+    margin: 30px 0 0 0;
     background-color: #1b3a57;
     color: white;
     border: none;
