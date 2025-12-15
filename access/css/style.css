@@ -7,7 +7,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f6f9;
-    color: #2c3e50;
+    color: #fff;
     line-height: 1.6;
 }
 header {
@@ -249,22 +249,31 @@ form button:hover {
 }
 .footer-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #1b3a57;
-    color: #ffffff;
+    color: #fff;
+    border-radius: 12px;
+    width: auto;
     padding: 25px 0;
-    margin: 0 25px 25px 25px;
+    margin-right: 20px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-.footer-container footer img {
+.footer-container img footer{
     text-align: center;
     margin: 15px;
+    color: #ffffff;
     filter: invert(1);
     cursor: pointer;
     transition: 0.3s;
 }
 .footer-container img:hover {
     filter: invert(0.7);
+}
+.footer-link {
+    margin-right: 20px;
+}
+.footer-content {
+    margin-left: 20px;
 }
 @media (max-width: 900px) {
     .hero {
