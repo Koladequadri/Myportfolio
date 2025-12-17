@@ -265,10 +265,8 @@ form button:hover {
     justify-content: space-between;
     background-color: #1b3a57;
     color: #fff;
-    border-radius: 12px;
     width: auto;
     padding: 25px 0;
-    margin-right: 20px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 .footer-container img footer{
